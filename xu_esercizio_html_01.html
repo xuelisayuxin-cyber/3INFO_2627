@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- Qui vanno inserite informazioni relative alla pagina -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Antonio Mancuso">
+    <meta name="keywords" content="template HTML, lezioni, scuola">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="100">
+
+    <title>Prima pagina HTML</title>
+
+    <style>
+        body {
+            background-color: lightyellow;
+        }
+
+        h1 {
+            color: blue;
+        }
+    </style>
+
+    <script>
+        function myFunction() {
+            document.getElementById("titolo").innerHTML =
+            "STRUTTURA BASE DI UNA PAGINA WEB";
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        <h1 id="titolo">La mia prima pagina HTML</h1>
+        <br>
+        <img src="https://source.unsplash.com/collection/94734566/1920x1080"
+             width="60%">
+
+        <div>
+            <button type="button" onclick="myFunction()">
+                Prova a premere
+            </button>
+        </div>
+    </center>
+</body>
+</html>
+
